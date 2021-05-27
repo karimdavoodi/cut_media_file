@@ -1,9 +1,5 @@
-# cut_media_file
-Simple library to cut media file and extract audio 
-## Usage example in Python:
-
-```
 #!/usr/bin/python3
+import os
 import libcut_ts
 
 if __name__ == '__main__':
@@ -20,4 +16,3 @@ if __name__ == '__main__':
                             30           # duration (in second)
                             )
 
-```

@@ -1,0 +1,16 @@
+[package]
+name = "ffmpeg_cut_rust"
+version = "0.1.0"
+authors = ["Karim Davoodi <asehabi2020@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "cut_ts"
+crate-type = ["cdylib"]
+
+[dependencies]
+ffmpeg-next = "4.3.8"
+
+[dependencies.cpython]
+version = "0.5"
+features = ["extension-module"]
